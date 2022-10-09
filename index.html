@@ -25,11 +25,19 @@
             <h1 class="hide-visually"><a href="index.html">Personal Framework</a></h1>
         </div>
 
-        <nav class="site-nav">
+        <nav class="site-nav" data-navstate="open">
+            <h2 class="menu-button">
+                <span class="hide-visually">Menu</span>
+                <svg width="30" height="30">
+                    <title>Menu</title>
+                    <rect id="menubar-top" y="0" width="30" height="3"></rect>
+                    <rect id="menubar-mid" y="8" width="30" height="3"></rect>
+                    <rect id="menubar-bottom" y="16" width="30" height="3"></rect>
+                </svg>
+            </h2>
             <ul>
-                <li><a href="#section1">section 1</a></li>
-                <li><a href="#section2">section 2</a></li>
-                <li><a href="#section3">section 3</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="subpage.html">Subpage</a></li>
             </ul>
         </nav>
     </header>
@@ -95,9 +103,8 @@
         <nav class="site-nav">
             <ul>
                 <ul>
-                    <li><a href="#section1">section 1</a></li>
-                    <li><a href="#section2">section 2</a></li>
-                    <li><a href="#section3">section 3</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="subpage.html">Subpage</a></li>
                 </ul>
             </ul>
         </nav>
@@ -112,6 +119,9 @@
             speedAsDuration: true
         });
     </script>
+
+<!--  -->
+<script src="js/script.js"></script>
 
 </body>
 
