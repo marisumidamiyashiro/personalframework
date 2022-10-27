@@ -385,6 +385,7 @@ section {
           transform: translate(100%, 0);
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  z-index: 100;
 }
 .site-header .site-nav li {
   font-size: 4vw;
